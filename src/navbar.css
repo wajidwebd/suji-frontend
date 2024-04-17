@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.gridlayout {
+    width: 95%;
+    margin: auto;
+    /* height: 100vh;
+    background-color: rgb(79, 94, 109); */
+}
+.navbardiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+}
+.navbardiv a{
+    padding: 0px 56px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.navlogoname{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.navlogoname img{
+    height: 70px;
+}
+.herosection{
+    background: url(./images/heroimg2.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.herosection a,.abtherosection a,.productherosection a,.cartherosection a{
+    text-decoration: none;
+    color:white;
+}
+.cartIcon{
+    font-size:40px;
+    position:relative;
+}
+.cartsectiondiv{
+    margin: 80px 0px;
+}
+.cartlength{
+    position: absolute;
+    top: 8px;
+    right: 48px;
+    background-color: #96c767;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 0px 7px;
+}
+.productsdiv{
+    display:inline-flex;
+    width: 26%;
+    justify-content: space-evenly;
+}
+.productssection{
+    margin:93px 0px;
+}
+.productscard{
+    /* border:1px solid blue; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: 35px auto;
+}
+.productscard img{
+    height: 250px;
+    width: 283px;
+    padding: 7px;
+}
+.productscard p{
+    padding: 10px;
+}
+.productscard button{
+    background: none;
+    border: none;
+    font-size: 28px;
+}
+
+.addtocarticon:hover {
+    color:grey;
+}
+.addtocarticon:visited {
+    color:green;
+}
+.productscard:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.cartcards img{
+    height: 117px;
+    width: 140px;
+    padding: 5px;
+}
+.cartcards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+    width: 60%;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.itemincrementdecrement{
+    display: flex;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: space-around;
+}
+.itemincrementdecrement button{
+    background: none;
+    border: none;
+    padding: 4px 8px;
+
+}
+.itemdetails{
+    text-align: left;
+}
+.planttotal{
+    /* width:13%; */
+}
+.cartcards>*{
+    width:15%;
+}
+.removeIcon{
+    background: none;
+    border: none;
+    font-size: 19px;
+}
+.totalrs{
+    color: #35610c;
+}
+.herosection h3{
+    font-size: 45px;
+    padding: 104px 0px 0px;
+}
+.herosection p{
+    width: 37%;
+    margin: 0px auto;
+    font-size: 17px;
+    padding: 93px 0px;
+}
+.herosection button{
+    padding: 6px 12px;
+    background-color: #35610c;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size:17px
+}
+.category1{
+    display:flex;
+    justify-content: center;
+    gap: 60px;
+}
+.toprated{
+    background-image:url('./images/aloevera.jpg');
+    width:300px;
+    height:350px;
+    background-size: cover;
+    background-position: 20%;
+}
+.featured{
+    background-image:url('./images/anthurium.jpg');
+    width:300px;
+    height:350px;
+    background-size: cover;
+    background-position: 20%;
+}
+.bestseller{
+    background-image:url('./images/gerberdaisy.jpg');
+    width:300px;
+    height:350px;
+    background-size: cover;
+    background-position: -20px 0px;
+}
+.lowmaintenance{
+    background-image:url('./images/opuntia.jpg');
+    width:300px;
+    height:350px;
+    background-size: cover;
+}
+.category1 .content{
+    margin:280px auto 0px;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    padding: 3px 0px;
+}
+.category1 .content p{
+    font-size:14px;
+}
+.featuredcategoriesdiv hr,.productssection hr,.cartsectiondiv hr{
+    height:2px;
+    width:10%;
+    margin:10px auto 40px;
+    border: 1px solid #96c767;
+    background-color:#96c767;
+}
+.featuredcategoriesdiv{
+    margin:80px 0px;
+}
+.featuredcategoriesdiv .category2{
+    display:flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    padding: 20px 0px;
+    margin:70px 0px;
+}
+.category2 .content{
+    text-align: left;
+}
+.freeship{
+    display:flex;
+    align-items: center;
+    gap: 17px;
+}
+.support24{
+    display:flex;
+    align-items: center;
+    gap: 17px;
+}
+.securepay{
+    display:flex;
+    align-items: center;
+    gap: 17px;
+}
+.featuredcategoriesdiv .category2 .icon{
+    font-size:100px;
+}
+.category2 h2{
+    color:#60942F;
+    padding: 2px 0px;
+}
+.abtherosection{
+    background: url(./images/abthero.jpeg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.abtherosection h3{
+    font-size: 45px;
+    padding: 104px 0px 0px;
+}
+.abtherosection p{
+    width: 37%;
+    margin: 93px auto;
+    font-size: 18px;
+    padding: 20px 10px;
+    color: white;
+    border-radius: 13px;
+    background-color: #96c767;
+}
+.abtherosection button{
+    padding: 6px 12px;
+    background-color: #35610c;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size:17px
+}
+.abtsection .welcome{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 90px 0px;
+}
+.abtsection .welcome .welcomecontent{
+    text-align:left;
+    width: 50%;
+}
+.abtsection .welcome .welcomecontent h2{
+    font-size:52px;
+}
+.abtsection .welcome .welcomecontent p{
+    width: 90%;
+}
+.abtsection .welcome img{
+    width: 35%;
+    height: 400px;
+}
+.abtsection .welcome .welcomecontent span{
+    color:#60942f;
+}
+.visionmissiongoal{
+    display:flex;
+    text-align:left;
+    justify-content: space-evenly;
+    margin: 65px 0px;
+}
+.visionmissiongoal h3{
+    font-size: 35px;
+    width: 19%;
+    color:#60942f;
+}
+.visionmissiongoal p{
+    font-size: 15px;
+    font-weight: 400;
+    width:90%;
+    padding: 10px 0px;
+    color:black;
+}
+.productherosection{
+    background: url(./images/plantshero.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.productherosection h3{
+    font-size: 45px;
+    padding: 104px 0px 0px;
+}
+.productherosection p{
+    width: 37%;
+    margin: 93px auto;
+    font-size: 18px;
+    padding: 20px 10px;
+    color: white;
+    border-radius: 13px;
+    background-color: #96c767;
+}
+.productherosection button{
+    padding: 6px 12px;
+    background-color: #35610c;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size:17px
+}
+.cartherosection{
+    background: url(./images/carthero.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cartherosection h3{
+    font-size: 45px;
+    padding: 104px 0px 0px;
+}
+.cartherosection p{
+    width: 37%;
+    margin: 93px auto;
+    font-size: 18px;
+    padding: 20px 10px;
+    color: white;
+    border-radius: 13px;
+    background-color: #96c767;
+}
+.cartherosection button,.paymentbtn{
+    padding: 6px 12px;
+    background-color: #35610c;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size:17px
+}
+.footercontent{
+    display: flex;
+    text-align:left;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.footercontent li{
+    list-style-type:none;
+}
+.subscribediv{
+    background-color:#96c767;
+    padding: 10px;
+    border-radius: 10px;
+    height: 78px;
+}
+.footerdiv{
+    background-color:#d6fab4;
+}
+.footercontent h4{
+    font-size: 22px;
+    padding: 22px 0px;
+}
+.footersub4 input{
+    height: 23px;
+    border-radius: 5px;
+    padding: 4px;
+    position:relative;
+    border: none;
+}
+.subscribeicon{
+    position:absolute;
+    right: 125px;
+    padding: 7px 0px;
+}
+.sadIcon{
+    font-size: 36px;
+    padding: 12px;
+}
+.navbarlinkdiv a:hover{
+    color:#35610c;
+}
+.herosection button:hover,.productherosection button:hover,.cartherosection button:hover,.abtherosection button:hover,.paymentbtn{
+    background-color: #60942F;
+}
+.footercontent a{
+    text-decoration: none;
+    color:black;
+}
+
+@media screen and (max-width:500px) {
+    .navbardiv {
+        display: inline;
+    }
+    .navbardiv a {
+        padding: 0px 19px;
+    }
+    .herosection p {
+        width: 70%;
+        padding: 42px 0px;
+    }
+    .category1 {
+        display: inline-block;
+    }
+    .category1 .content {
+        margin: 28px auto 0px;
+    }
+    .featuredcategoriesdiv .category2 {
+        display: grid;
+    }
+    .footercontent {
+        display: block;
+        text-align: center;
+    }
+    .abtherosection p {
+        width: 76%;
+        margin: 39px auto;
+    }
+    .abtsection .welcome {
+        flex-direction: column-reverse;
+    }
+    .abtsection .welcome .welcomecontent {
+        width: 95%;
+        text-align: center;
+    }
+    .abtsection .welcome img {
+        width: 75%;
+        height: 260px;
+    }
+    .visionmissiongoal {
+        display: block;
+    }
+    .visionmissiongoal h3 {
+        width: 100%;
+    }
+    .productherosection p {
+        width: 68%;
+        margin: 47px auto;
+    }
+    .productsdiv {
+        width: 100%;
+        flex-direction: column;
+    }
+    .cartlength {
+        top: 98px;
+        right: 167px;
+    }
+    .cartherosection p {
+        width: 62%;
+        margin: 42px auto;
+    }
+    .cartcards img {
+        width: 86px;
+    }
+    .cartcards {
+        gap: 35px;
+        width: 100%;
+    }
+    .itemdetails h3{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:850px) {
+    .navbardiv a {
+        padding: 0px 18px;
+    }
+    .category1 {
+        flex-wrap: wrap;
+    }
+    .subscribeicon {
+        right: 84px;
+    }
+    .productsdiv {
+        width: 48%;
+    }
+    .cartlength {
+        right: 13px;
+    }
+    .cartcards {
+        width: 95%;
+    }
+}
